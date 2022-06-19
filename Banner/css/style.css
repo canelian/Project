@@ -24,7 +24,7 @@ a.danji {
   border: 3px solid black;*/
   position: relative;
   background-image: 
-    url('../img/banana-cf-600.gif');
+    url('../img/banana-cf.gif');
   background-position: 0 0, right;
   background-size: contain, cover;
   background-repeat: no-repeat;
