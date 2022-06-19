@@ -6,12 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project_박지훈</title>
   <style>
-    a {
-      text-decoration: none;
+    :root {
+      --basefont-size: 20px;
     }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .head {
+      width: 400px;
+      height: 800px;
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+
+    .middle {
+      outline: 2px solid pink;
+      background: rgba(0, 103, 0, 0.8);
+    }
+
+    a {
+      margin: 15px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .number {      
+      font-size: var(--basefont-size);
+    }
+
   </style>
 </head>
 <body>
-  <a class="number-0" href="./Banner/index.html">이번에 만든 배너입니다.</a>
+  <div class="head">
+    <h1>Project</h1>
+    <div class="middle">
+      <a class="number-0" href="./Banner/index.html" target="_blank" rel="noopener noreferrer">이번에 만든 배너입니다.</a>
+      <br>
+      <a href="#">메인페이지는 차차 수정하면서 하겠습니다.</a>
+    </div>
+  </div>
 </body>
 </html>
