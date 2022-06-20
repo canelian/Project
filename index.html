@@ -7,7 +7,7 @@
   <title>Project_박지훈</title>
   <style>
     :root {
-      --basefont-size: 20px;
+      --basefont-size: 30px;
     }
 
     * {
@@ -16,26 +16,49 @@
       box-sizing: border-box;
     }
 
-    .head {
-      width: 400px;
-      height: 800px;
-      margin-top: 50px;
-      margin-left: 50px;
+    body {
+      background-image: url(./img/space1.png);
+      background-position: center, center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
 
-    .middle {
-      outline: 2px solid pink;
-      background: rgba(0, 103, 0, 0.8);
+    h1 {
+      color: white;
+      font-size: 50px;
+    }
+
+    ul li {
+      display: inline-block;
     }
 
     a {
-      margin: 15px;
       text-decoration: none;
       color: white;
     }
 
-    .number {      
+    .head {
+      width: 700px;
+      height: 800px;
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+    
+    .middle {
+      outline: 2px solid pink;
+      background: rgba(147, 140, 140, 0.3);
       font-size: var(--basefont-size);
+      font-family: "굴림", sans-serif;
+      color: white;
+      padding: 10px;
+    }
+
+    .number-0 {
+      font-family: "빙그레체", sans-serif;
+    }
+
+    .number-1 {
+      font-weight: bold;
     }
 
   </style>
@@ -44,10 +67,16 @@
   <div class="head">
     <h1>Project</h1>
     <div class="middle">
-      <a class="number-0" href="./Banner/index.html" target="_blank" rel="noopener noreferrer">
-        이번에 만든 바나나우유 배너입니다.</a>
-      <br>
-      <a href="#">메인페이지는 차차 수정하면서 하겠습니다.</a>
+      <ul>
+        <li class="number-0">
+          이번에 만든 바나나맛우유 배너입니다.
+          <a href="./Banner/index.html" target="_blank" rel="noopener noreferrer">&nbsp;클릭</a>
+        </li>
+        <li class="number-1">
+          메인페이지는 차차 수정하면서 하겠습니다.
+          <a href="./img/Homepage-menworking.jpg" target="_blank" rel="noopener noreferrer">&nbsp;클릭</a>
+        </li>
+      </ul>
     </div>
   </div>
 </body>
