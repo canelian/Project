@@ -43,10 +43,8 @@ a.danji {
 .korean {
   width: 40%;
   position: absolute;
-  top: 265px;
-  right: 30px;
-  justify-content: center;
-  align-items: center;
+  top: 260px;
+  right: 20px;
   animation-name: korean;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -68,10 +66,8 @@ a.danji {
 .logo {
   width: 13%;
   position: absolute;
-  top: 220px;
-  left: 10px;
-  justify-content: center;
-  align-items: center;
+  top: 210px;
+  left: 20px;
   animation-name: logo;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -93,15 +89,14 @@ a.danji {
 .btn {
   width: 100px;
   position: absolute;
-  top: 10px;
-  left: 250px;
-  background-color: rgb(242, 222, 48, 0.3);
+  top: 290px;
+  left: 200px;
+  background-color: rgb(242, 222, 48, 0.7);
   border: none;
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 10px;
   font-family: 'Noto Sans KR', sans-serif;
-  color: white;
 }
 
 .btn:hover {
@@ -110,12 +105,12 @@ a.danji {
 
 #btn-br:after {
   display: block;
-  content: "커서 좀 대봐유";
+  content: "여기 좀 봐줘유";
   white-space: pre;
 }
 
 #btn-br:hover:after {
-  content: "이제 가볼까유?";
+  content: "사러 가볼까유?";
 }
 
 
