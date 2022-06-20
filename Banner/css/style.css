@@ -10,10 +10,16 @@ body {
   align-items: center;
   text-align: center;
   min-height: 100vh;
+  
 }
 
 a {
   text-decoration: none;
+}
+
+.container {
+  width: 596px;
+  height: 338px;
 }
 
 a.danji {
@@ -29,11 +35,6 @@ a.danji {
   background-size: contain, cover;
   background-repeat: no-repeat;
   overflow: hidden;
-}
-
-.container {
-  width: 596px;
-  height: 338px;
 }
 
 .danji:hover {
@@ -101,6 +102,16 @@ a.danji {
 
 .btn:hover {
   cursor: pointer;
+}
+
+#container-img {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/Bing-bananamilk-space1.png');
+  position: absolute;
+  top: 0;
+  left: 0;
+  
 }
 
 #btn-br:after {
