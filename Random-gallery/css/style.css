@@ -5,21 +5,20 @@
 }
 
 body {
-  /*width: 1920px;
-  height: 1080px;
-  */
-  height: 100vh;
   font-family: "굴림", sans-serif;
-  background-image: url('../img/img01.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   text-align: center;
+  color: #fff;
+  
+}
+
+.container {
+  background-image: url('../img/rectangle1.png');  
+  /*background-repeat: no-repeat;*/
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  
+  height: 100vh;
 }
 
 section {
@@ -30,10 +29,6 @@ section h1 {
   font-size: 48px;
 }
 
-h1 {
-  color: white;
-}
-
 a {
   text-decoration: none;
 }
@@ -42,7 +37,11 @@ ul {
   list-style-type: none;
 }
 
-.date {
+#date {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 30px;
+  font-size: 56px;
+}
+
+#myname {
+  font-size: 20px;
 }
